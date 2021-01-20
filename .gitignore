@@ -62,3 +62,11 @@ buck-out/
 # Expo
 .expo/*
 web-build/
+
+# Npm
+package-lock.json
+
+# Cocoapods
+podfile.lock
+# # XCode version config that is used:
+ios/together.xcworkspace/contents.xcworkspacedata
