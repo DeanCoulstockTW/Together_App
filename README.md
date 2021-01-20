@@ -2,11 +2,22 @@
 
 # Instructions
 
-### Recommended: Pre-commit hook
-1. For the pre-commit hook,ensure you have already set `$TALISMAN_HOME` to `$PATH`
+### Recommended: Pre-commit/Pre-push hook
+1. For the pre-commit/pre-push hook,ensure you have already set `$TALISMAN_HOME` to `$PATH`
 
-2. Make sure your Talisman hook is installed with the following command.
+2. Make sure your Talisman hook is installed with the following commands.
 
     ```sh
-    curl --silent  https://raw.githubusercontent.com/thoughtworks/talisman/master/global_install_scripts/install.bash > /tmp/install_talisman.bash && /bin/bash /tmp/install_talisman.bash
+    # Download the talisman installer script
+    curl https://thoughtworks.github.io/talisman/install.sh > ~/install-talisman.sh
+    chmod +x ~/install-talisman.sh
+    
+    # Install to a single project
+    cd my-git-project
+    
+    # as a pre-push hook
+    ~/install-talisman.sh
+    
+    # or as a pre-commit hook
+    ~/install-talisman.sh pre-commit
     ```
