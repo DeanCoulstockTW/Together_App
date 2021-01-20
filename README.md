@@ -24,4 +24,8 @@
 
 ### Technologies
 
-Java, Objective-C, Starlark, JavaScript, Ruby
+- iOS:  - React Native, Babel, CocoaPods
+- Android:  - Gradle, Babel
+### Testing
+
+- Jest testing framework
