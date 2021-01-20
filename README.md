@@ -3,7 +3,7 @@
 # Instructions
 
 ### Recommended: Pre-commit hook
-1. For the pre-commit hook,ensure you have already set `$TALISMAN_HOME` to $PATH
+1. For the pre-commit hook,ensure you have already set `$TALISMAN_HOME` to `$PATH`
 
 2. Make sure your Talisman hook is installed with the following command.
 
