@@ -21,3 +21,7 @@
     # or as a pre-commit hook
     ~/install-talisman.sh pre-commit
     ```
+
+### Technologies
+
+Java, Objective-C, Starlark, JavaScript, Ruby
