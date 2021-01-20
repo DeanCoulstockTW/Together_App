@@ -64,9 +64,9 @@ buck-out/
 web-build/
 
 # Npm
-package-lock.json
 
 # Cocoapods
 podfile.lock
 # # XCode version config that is used:
 ios/together.xcworkspace/contents.xcworkspacedata
+package-lock.json
