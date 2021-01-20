@@ -28,4 +28,4 @@
 - Android:  - Gradle, Babel
 ### Testing
 
-- Jest testing framework
+- Jest
